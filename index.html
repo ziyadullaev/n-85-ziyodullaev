@@ -1,69 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style/style.css">
-</head>
-<body>
-    <main>
-        <section>
-            <div class="wrap-nav">
-                <div class="store">
-                    <img src="./assets/icons/store-icon.svg" alt="icon">
-                    <h2>Store</h2>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About-us</a></li>
-                        <li><a href="#">shop</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <main style="background: url(/assets/images/back-line.png); z-index: 5">
+      <section class="container">
+        <header>
+          <div class="navbar">
+            <div class="logo">
+              <img src="./assets/icons/store-icon.svg" alt="" />
+              Store
             </div>
-            <div class="main-section">
-                <div class="main-text">
-                    <h3>Outfit of the day</h3>
-                    <p>All your styles are here</p>
-                    <h2>styles are here</h2>
-                    <p>Consectetur adipiscing elit. Cursus condimentum donec non dictum. Id et sed ac mauris, adipiscing tincidunt amet vel at. Quis lobortis id. consectetur adipiscing elit. </p>
-                </div>
-                <div class="btn">
-                    <p>buy now</p>
-                    <img src="./assets/icons/strelka.png" alt="strelka">
-                </div>
-                <div class="social-media">
-                    <ul>
-                        <li><a href="#"><img src="./assets/icons/facebook.svg" alt="facebook"></a></li>
-                        <li><a href="#"><img src="./assets/icons/instagran.svg" alt="instagram"></a></li>
-                        <li><a href="#"><img src="./assets/icons/telegram.svg" alt="telegram"></a></li>
-                    </ul>
-                </div>
-                <div class="sub-products">
-                    <div class="dots">
-                        <div class="ellipse1"></div>
-                        <div class="ellipse2"></div>
-                        <div class="ellipse3"></div>
-                    </div>
-                    <div class="jecet1">
-                        <img src="./assets/images/jacet.png" alt="jacet">
-                        <div class="jacet-border">
-                            <p>Casual Jaket</p>
-                            <span>$125</span>
-                            <b>$225</b>
-                        </div>
-                    </div>
-                    <div class="jacet2">
-                        <img src="./assets/images/jacet2.png" alt="">
-                    </div>
-                    <div class="jacet3">
-                        <img src="./assets/images/jacet3.png" alt="">
-                    </div>
-                </div>
+            <nav>
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </nav>
+            <div class="cart-icon">
+              <img src="./assets/icons/store-back.svg" alt="" />
             </div>
-        </section>
+          </div>
+        </header>
+        <div class="main-page">
+          <div class="main-text">
+            <h3>Outfit of the day</h3>
+            <div class="for-style-text">
+              <p>All your</p>
+              <span>style are here</span>
+            </div>
+            <h4>
+              Consectetur adipiscing elit. Cursus condimentum donec non dictum.
+              Id et sed ac mauris, adipiscing tincidunt amet vel at. Quis
+              lobortis id. consectetur adipiscing elit.
+            </h4>
+            <div class="btn">
+              <p>
+                buy now
+                <img
+                  src="./assets/icons/strelka.png"
+                  alt="strelka"
+                  style="padding-left: 30px"
+                />
+              </p>
+            </div>
+          </div>
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="./assets/icons/facebook.svg" alt="facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/icons/instagran.svg" alt="instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/icons/telegram.svg" alt="telegram"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="for-jacet">
+            <img src="/assets/images/jacet-photo.png" alt="" />
+          </div>
+          <div class="sub-products">
+            <div class="dots">
+              <div class="ellipse1"></div>
+              <p>•••••••••••••••••••••••••</p>
+              <div class="ellipse2"></div>
+              <p>••••••••••••••••</p>
+              <div class="ellipse3"></div>
+            </div>
+            <div class="products">
+              <img src="./assets/images/jacet.png" alt="jacet" />
+              <div class="jacet1">
+                <div class="jacet-border">
+                  <p>Casual Jaket</p>
+                  <p>$125 <span>$225</span></p>
+                </div>
+              </div>
+              <div class="jacet2">
+                <img src="./assets/images/jacet2.png" alt="" />
+              </div>
+              <div class="jacet3">
+                <img src="./assets/images/jacet3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
